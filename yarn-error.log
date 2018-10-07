@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\saursaku\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\saursaku\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Brackets\command;C:\PostgreSQL\pg10\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\saursaku\AppData\Local\Programs\Python\Python37-32\;C:\Users\saursaku\AppData\Local\Android\Sdk\platform-tools;C:\Users\saursaku\AppData\Local\Android\Sdk\tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\saursaku\AppData\Local\atom\bin;C:\Program Files\Oracle\VirtualBox;C:\Users\saursaku\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Maven\apache-maven-3.5.3\bin;C:\Program Files\nodejs;C:\Users\saursaku\AppData\Roaming\npm;C:\Program Files\Git\;C:\Users\saursaku\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\saursaku\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:120793:19)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at ClientRequest.emit (events.js:208:7)
+      at TLSSocket.emitTimeout (_http_client.js:706:34)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at TLSSocket.emit (events.js:208:7)
+      at TLSSocket.Socket._onTimeout (net.js:410:8)
+      at ontimeout (timers.js:498:11)
+
+npm manifest: 
+  {
+    "name": "Gametable-application",
+    "version": "1.0.0",
+    "description": "Example code for deploying mongo course",
+    "repository": "https://github.com/synedra/node_deploy",
+    "main": "app.js",
+    "engines": {
+      "node": ">=7.0"
+    },
+    "scripts": {
+      "start": "node app.js",
+      "ng": "ng",
+      "postinstall": "node build.js",
+      "test": "node test.js",
+      "pree2e": "webdriver-manager update --standalone false --gecko false",
+      "e2e": "protractor"
+    },
+    "author": "Kirsten Hunter",
+    "license": "ISC",
+    "dependencies": {
+      "@angular-devkit/schematics": "0.0.40",
+      "@angular/animations": "^5.1.0",
+      "@angular/cli": "^1.6.0",
+      "@angular/common": "^5.1.0",
+      "@angular/compiler": "^5.1.0",
+      "@angular/compiler-cli": "^5.1.0",
+      "@angular/core": "^5.1.0",
+      "@angular/forms": "^5.1.0",
+      "@angular/http": "^5.1.0",
+      "@angular/platform-browser": "^5.1.0",
+      "@angular/platform-browser-dynamic": "^5.1.0",
+      "@angular/platform-server": "^5.1.0",
+      "@angular/router": "^5.1.0",
+      "angular2-moment": "^1.7.1",
+      "body-parser": "^1.18.2",
+      "codelyzer": "^4.0.1",
+      "core-js": "^2.4.1",
+      "cors": "^2.8.4",
+      "cross-var": "^1.1.0",
+      "express": "^4.16.2",
+      "karma": "^1.7.1",
+      "method-override": "^2.3.10",
+      "mocha": "^4.0.1",
+      "mongoose": "^4.13.6",
+      "rxjs": "^5.0.1",
+      "supertest": "^3.0.0",
+      "tape": "^4.8.0",
+      "ts-helpers": "^1.1.1",
+      "tslint": "^5.8.0",
+      "typescript": "2.4.2",
+      "zone.js": "^0.8.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
